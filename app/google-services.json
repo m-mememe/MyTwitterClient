@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "191223618688",
+    "firebase_url": "https://mytwitterclient-2298d.firebaseio.com",
+    "project_id": "mytwitterclient-2298d",
+    "storage_bucket": "mytwitterclient-2298d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191223618688:android:b2c47f24580e2bdc021a65",
+        "android_client_info": {
+          "package_name": "com.niked4chiba.my_twitter_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191223618688-179gp6sv309he50uqosqtj1evf9lr8q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz23ooVyxMaoeKfeWWwaEgT5IQO9sWIFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191223618688-179gp6sv309he50uqosqtj1evf9lr8q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

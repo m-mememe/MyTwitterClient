@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_time_line">
+
+    <fragment
+        android:id="@+id/navigation_time_line"
+        android:name="com.niked4chiba.my_twitter_client.main_ui.time_line.TimeLineFragment"
+        android:label="@string/title_time_line"
+        tools:layout="@layout/fragment_time_line" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.niked4chiba.my_twitter_client.main_ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.niked4chiba.my_twitter_client.main_ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_direct_message"
+        android:name="com.niked4chiba.my_twitter_client.main_ui.direct_message.DirectMessageFragment"
+        android:label="@string/title_direct_message"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>

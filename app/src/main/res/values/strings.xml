@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">my_twitter_client</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_time_line">TimeLine</string>
+    <string name="title_search">Search</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_direct_message">DirectMessage</string>
+</resources>
