@@ -5,4 +5,10 @@
     <string name="title_search">Search</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_direct_message">DirectMessage</string>
+
+    <string name="tv_id">@</string>
+    <string name="tv_name">null</string>
+    <string name="tv_time">0 min</string>
+    <string name="tv_point">・</string>
+    <string name="tv_content">null</string>
 </resources>
