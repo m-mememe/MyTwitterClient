@@ -20,6 +20,7 @@ class TimeLineFragment : Fragment() {
     private lateinit var adapter: TweetViewAdapter
     private lateinit var layoutManager: RecyclerView.LayoutManager
     private val tweets: List<Tweet> = listOf(
+        Tweet("activity"),
         Tweet("come"),
         Tweet("on"),
         Tweet("yjm"),

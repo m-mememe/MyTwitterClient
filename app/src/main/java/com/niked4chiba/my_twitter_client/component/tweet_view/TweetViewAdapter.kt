@@ -22,6 +22,10 @@ class TweetViewAdapter(tweets: List<Tweet>) : RecyclerView.Adapter<TweetViewHold
 
     override fun onBindViewHolder(holder: TweetViewHolder, position: Int) {
         val tweet = tweetsList[position]
+//        holder.icon?.srcCompat = tweet.icon
         holder.content?.text = tweet.content
+        holder.name?.text = tweet.content
+        holder.userId?.text = "@" + tweet.content
+        holder.time?.text = tweet.content
     }
 }
